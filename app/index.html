@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../dist/css/styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- introduction parallax -->
+    <section>
+      <div class="hero">
+        <div class="parallax-layer layer-6"></div>
+        <div class="parallax-layer layer-5"></div>
+        <div class="parallax-layer layer-4"></div>
+        <div class="parallax-layer bike-1"></div>
+        <div class="parallax-layer bike-2"></div>
+        <div class="parallax-layer layer-3"></div>
+        <div class="parallax-layer layer-2"></div>
+        <div class="parallax-layer layer-1"></div>
+        <div class="logo">
+          <img src="./images/logo.svg" alt=""  />
+        </div>
+      </div>
+      <nav>
+          <ul>
+            <li><a href="#">FORMULAIRE DE CONNEXION</a></li>
+            <li><a href="#">PROFIL UTILISATEUR</a></li>
+            <li><a href="#">RESPONSIVE CARD</a></li>
+            <li><a href="#">PARALLAX SCROLLING</a></li>
+          </ul>
+        </nav>
+    </section>
+
+    <!-- la section pour le login form -->
+    <section>
+      <h2>FORMULAIRE DE CONNEXION</h2>
+      <br>
+      <form>
+        <div class="imgcontainer">
+          <img src="./images/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+          <label for="uname"><b>Nom Utilisateur</b></label>
+          <input type="text" placeholder="Enter votre nom" name="uname" required>
+          <label for="psw"><b>Mots de Passe</b></label>
+          <input type="password" placeholder="Enter Mots de Passe" name="psw" required>  
+          <button type="submit" class="button">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </section>
+    
+    <!-- le pannel utilisateur  -->
+    <section>
+      <h2>PROFIL UTILISATEUR</h2>
+      <div class="card utilisateur">
+          <img src="./images/team2.jpg" alt="John" style="width:100%">
+          <div class="imgcontainer">
+              <img src="./images/img_avatar.png" alt="Avatar" class="avatar">
+          </div>
+          <div>
+              <h1>John Doe</h1>
+              <p class="title">CEO & Founder, Example</p>
+              <p>Harvard University</p>
+          </div>
+          <p><button class="button">Contact</button></p>
+      </div>
+      
+      <br>
+    </section>
+    <!-- le card avec trois autre responsive -->
+    <section>
+      <h2>RESPONSIVE CARD</h2>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/team1.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Jane Doe</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+              <p class="price">$19.99</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="./images/team2.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Mike Ross</h2>
+              <p class="title">Art Director</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+              <p class="price">$19.99</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="./images/team3.jpg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>John Doe</h2>
+              <p class="title">Designer</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+              <p class="price">$19.99</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- parallax section -->
+    <section>
+        <h2>PARALLAX SCROLLING</h2>
+        <div class="bg"></div>
+        <div class="parallax">
+        <div class="parallax-group">
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer fill"></div>
+        </div>
+        <div class="content">
+            <h1>Parallax Scrolling</h1>
+            <p>Utiliser uniquement du CSS</p>
+        </div>
+        </div>
+    </section>
+  </body>
+</html>
