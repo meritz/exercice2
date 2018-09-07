@@ -6,13 +6,6 @@ gulp.task('hello', function() {
     console.log('Hello Zell');
   });
 
-  // Compile sass into CSS 
-// gulp.task('sass', function() {
-//   return gulp.src('./app/scss/styles.scss') // Gets all files ending with .scss in app/scss and children directories
-//     .pipe(sass())
-//     .pipe(gulp.dest('./dist/css'))
-// });
-
   // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
   browserSync.init({

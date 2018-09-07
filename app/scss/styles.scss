@@ -226,6 +226,9 @@ a {
   margin-bottom: 16px;
   padding: 0 8px;
 }
+.column-img {
+  width: 100%;
+}
 
 @media screen and (max-width: 650px) {
   .column {
@@ -336,9 +339,8 @@ a {
     }
   }
 
-} //loop over
+} 
 
-///Demo specific styling
 .content {
   position:relative;
   background-color:transparent;
