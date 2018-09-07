@@ -196,6 +196,9 @@ span.psw {
   float: right;
   padding-top: 16px; }
 
+.alignement {
+  text-align: initial !important; }
+
 /* changement de style pour les boutton a petite ecran */
 @media screen and (max-width: 300px) {
   span.psw {
@@ -342,7 +345,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #d9d1b8 66.01%), linear-gradient(45deg, #d9d1b8 34%, transparent 34.01%);
-    background-position: 169px 0px;
+    background-position: 158px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -359,7 +362,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #b3beaa 66.01%), linear-gradient(45deg, #b3beaa 34%, transparent 34.01%);
-    background-position: 173px 0px;
+    background-position: 96px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -376,7 +379,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #8cab9b 66.01%), linear-gradient(45deg, #8cab9b 34%, transparent 34.01%);
-    background-position: 193px 0px;
+    background-position: 268px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -393,7 +396,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #66988d 66.01%), linear-gradient(45deg, #66988d 34%, transparent 34.01%);
-    background-position: 135px 0px;
+    background-position: 224px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -410,7 +413,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #40867e 66.01%), linear-gradient(45deg, #40867e 34%, transparent 34.01%);
-    background-position: 269px 0px;
+    background-position: 171px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -427,7 +430,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #1a7370 66.01%), linear-gradient(45deg, #1a7370 34%, transparent 34.01%);
-    background-position: 88px 0px;
+    background-position: 296px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 

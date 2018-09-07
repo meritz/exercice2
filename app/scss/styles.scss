@@ -175,6 +175,10 @@ span.psw {
   padding-top: 16px;
 }
 
+.alignement {
+  text-align: initial !important;
+}
+
 /* changement de style pour les boutton a petite ecran */
 @media screen and (max-width: 300px) {
   span.psw {
