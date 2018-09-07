@@ -14,7 +14,9 @@ form {
   border: 3px solid #f1f1f1; }
 
 h2 {
-  text-align: center; }
+  text-align: center;
+  margin-top: 73px;
+  margin-bottom: 40px; }
 
 .hero {
   width: 100%;
@@ -92,7 +94,7 @@ h2 {
 
 .bike-1,
 .bike-2 {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/bike.png) 0 100% no-repeat;
+  background: url(../images/bike.png) 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   bottom: 100px;
@@ -188,7 +190,6 @@ button:hover {
   margin: 24px 0 12px 0; }
 
 img.avatar {
-  /* width: 40%; */
   border-radius: 50%; }
 
 .container {
@@ -216,7 +217,7 @@ span.psw {
 
 .utilisateur {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 700px;
   margin: auto;
   text-align: center;
   font-family: arial; }
@@ -324,7 +325,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #d9d1b8 66.01%), linear-gradient(45deg, #d9d1b8 34%, transparent 34.01%);
-    background-position: 189px 0px;
+    background-position: 242px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -341,7 +342,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #b3beaa 66.01%), linear-gradient(45deg, #b3beaa 34%, transparent 34.01%);
-    background-position: 94px 0px;
+    background-position: 6px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -358,7 +359,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #8cab9b 66.01%), linear-gradient(45deg, #8cab9b 34%, transparent 34.01%);
-    background-position: 103px 0px;
+    background-position: 191px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -375,7 +376,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #66988d 66.01%), linear-gradient(45deg, #66988d 34%, transparent 34.01%);
-    background-position: 233px 0px;
+    background-position: 61px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -392,7 +393,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #40867e 66.01%), linear-gradient(45deg, #40867e 34%, transparent 34.01%);
-    background-position: 137px 0px;
+    background-position: 100px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 
@@ -409,7 +410,7 @@ a {
     bottom: 100%;
     left: 0;
     background-image: linear-gradient(135deg, transparent 66%, #1a7370 66.01%), linear-gradient(45deg, #1a7370 34%, transparent 34.01%);
-    background-position: 30px 0px;
+    background-position: 275px 0px;
     background-size: 200px 100%;
     background-repeat: repeat-x; }
 

@@ -16,7 +16,9 @@ html {
 }
 body {font-family: Arial, Helvetica, sans-serif; height: 100%;}
 form {border: 3px solid #f1f1f1;}
-h2 { text-align: center}
+h2 { text-align: center;
+    margin-top: 73px;
+    margin-bottom: 40px;}
 
 // css dintroction de page
 
@@ -51,7 +53,7 @@ h2 { text-align: center}
 
 .bike-1,
 .bike-2 {
-  background:  url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/bike.png) 0 100% no-repeat;
+  background:  url(../images/bike.png) 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   bottom: 100px;
@@ -83,8 +85,6 @@ h2 { text-align: center}
 
 .logo {
   margin: 70px auto;
-  // left: 50%;
-  // display: block;
   position: absolute;
   z-index: 2;
   width: 100%;
@@ -166,7 +166,6 @@ button:hover {
 }
 
 img.avatar {
-  /* width: 40%; */
   border-radius: 50%;
 }
 
@@ -201,7 +200,7 @@ span.psw {
 
 .utilisateur {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 700px;
   margin: auto;
   text-align: center;
   font-family: arial;
