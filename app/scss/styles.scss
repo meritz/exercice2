@@ -150,9 +150,6 @@ button {
   cursor: pointer;
   width: 100%;
 }
-button:hover {
-  opacity: 0.8;
-}
 
 .cancelbtn {
   width: auto;
@@ -178,7 +175,7 @@ span.psw {
   padding-top: 16px;
 }
 
-/* Change styles for span and cancel button on extra small screens */
+/* changement de style pour les boutton a petite ecran */
 @media screen and (max-width: 300px) {
   span.psw {
      display: block;
@@ -277,6 +274,35 @@ a {
 }
 
 /* css du cote de parallax */
+
+.parallax-image-haut {
+  /* The image used */
+  background-image: url('../images/pexels-photo-1139556.jpeg');
+
+  /* Full height */
+  height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-image {
+  height: 500px;
+  width: 100%;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: auto) {
+  .parallaxx {
+      background-attachment: scroll;
+  }
+}
+
+// autre exemple
 
 .bg {
   position:absolute;
